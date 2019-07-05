@@ -1,0 +1,36 @@
+﻿生成启动时间为 2019/5/21 10:19:52。
+     1>项目“D:\workstation\Code\DlibTest\DlibTest\DlibTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D DLIB_PNG_SUPPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Demo.cpp Dlib.cpp FatigueDetect.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/arch:SSE2”
+         Demo.cpp
+     1>d:\workstation\source\dlib-19.0\dlib\image_transforms/morphological_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Dlib.cpp
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workstation\source\dlib-19.0\dlib\image_transforms/morphological_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>Dlib.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+     1>Dlib.cpp(156): warning C4018: “<”: 有符号/无符号不匹配
+     1>Dlib.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+         FatigueDetect.cpp
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workstation\source\dlib-19.0\dlib\image_transforms/morphological_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>FatigueDetect.cpp(32): warning C4018: “>”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workstation\Code\DlibTest\x64\Release\DlibTest.exe" /INCREMENTAL:NO /NOLOGO opencv_world310.lib dlib.lib "libfacedetect-x64.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workstation\Code\DlibTest\x64\Release\DlibTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workstation\Code\DlibTest\x64\Release\DlibTest.lib" /MACHINE:X64 x64\Release\Demo.obj
+         x64\Release\Dlib.obj
+         x64\Release\FatigueDetect.obj
+         正在生成代码
+         已完成代码的生成
+         DlibTest.vcxproj -> D:\workstation\Code\DlibTest\x64\Release\DlibTest.exe
+     1>已完成生成项目“D:\workstation\Code\DlibTest\DlibTest\DlibTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:39.47
